@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+  }
+
+  .container h1 {
+    color: blue;
+  }
+
+  .container .flags {
+    margin: 20px 0 30px 0;
+  }
+
+  .container .inp-btn .btn {
+    margin: 0 5px;
+  }
+  
+  .inp-btn button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: 0.5s;
+  }
+
+  .inp-btn button:hover {
+    background-color: rgb(51, 147, 46);
+  }
+
+  .inp-btn button:focus {
+    background-color: rgb(150, 176, 71);
+  }
+
+  .inp-btn input {
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(118, 196, 118);
+    border: none;
+  }
+
+  .inp-btn input:focus {
+    outline: none;
+    box-shadow: 2px 0px 20px 6px rgb(124, 162, 63);
+    transition: 0.5s;
+  }
+
+  .inp-btn ::-moz-placeholder {
+    color: white;
+  }
+  
+  .inp-btn ::placeholder {
+    color: white;
+  }
